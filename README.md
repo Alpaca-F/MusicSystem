@@ -1,2 +1,15 @@
-# 基于JAVA的在线音乐平台MusicSystem
-基于JAVA的在线音乐平台是一个集音乐播放、搜索、下载、用户管理、社交互动等功能于一体的综合性系统。基于Java技术栈，可以构建一个高性能、可扩展的在线音乐平台。以下是详细的设计与实现方案。
+<!--
+ * @Description: 
+ * @Author: Rabbiter
+ * @Date: 2023-03-05 20:17:11
+-->
+### 启动项目
+``` bash
+# 切换镜像
+npm config set registry https://registry.npm.taobao.org
+
+# 安装依赖，node -v 16.13.2
+npm install
+
+# 启动项目
+npm run dev
